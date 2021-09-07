@@ -2,6 +2,14 @@ import 'styled-components';
 
 declare module 'styled-components' {
   export interface DefaultTheme {
+    breakpoints: {
+      xxs: number;
+      xs: number;
+      md: number;
+      lg: number;
+      xl: number;
+      xxl: number;
+    };
     font: {
       family: {
         roboto: string;
